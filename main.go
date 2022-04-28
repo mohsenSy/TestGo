@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/mohsensy/TestGo/tutrial"
+	"github.com/mohsensy/TestGo/tutorial"
 )
 
 func main() {
 	fmt.Println("Test go modules and packages")
-	tutrial.Tut("mouhsen")
+	fmt.Println(tutorial.Tut("mouhsen"))
 }
